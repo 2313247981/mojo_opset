@@ -7,6 +7,7 @@ OPS = {
     "mxfp8_dequant_gemm": "dense_gemm",
     "mxfp4_gemm": "dense_gemm",
     "topk_infer": "topk",
+    "compute_global_topk_indices_and_lens": "compute_global_topk_indices_and_lens",
     "rms_norm_quant": "fused_quantization",
     "layer_norm_quant": "fused_quantization",
     "residual_add_rms_norm_quant": "fused_quantization",

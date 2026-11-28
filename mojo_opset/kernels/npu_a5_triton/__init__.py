@@ -3,6 +3,7 @@
 from mojo_opset.utils._exports import extend_bindings as _extend_bindings
 
 OPS = {
+    "compute_global_topk_indices_and_lens": "compute_global_topk_indices_and_lens",
     "swa_infer": "swa",
     "moe_dynamic_quant": "quant",
     "flex_attention": "flex_attention",

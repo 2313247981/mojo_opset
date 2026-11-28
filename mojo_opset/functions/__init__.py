@@ -10,6 +10,7 @@ from .attention import swa_infer
 from .attention import varlen_fa_infer
 from .convolution import causal_conv1d
 from .convolution import causal_conv1d_update_state_infer
+from .compute_global_topk_indices_and_lens import compute_global_topk_indices_and_lens
 from .flex_attention import flex_attention
 from .flex_attention_v2 import flex_attention_v2
 from .fused_quantization import dequant_swiglu_quant
@@ -74,6 +75,7 @@ __all__ = [
     "apply_penalties_temperature",
     "causal_conv1d",
     "causal_conv1d_update_state_infer",
+    "compute_global_topk_indices_and_lens",
     "dequant",
     "dequant_swiglu_quant",
     "diffusion_attention",
